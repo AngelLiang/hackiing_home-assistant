@@ -160,6 +160,7 @@ CONF_WHITE_VALUE = 'white_value'
 CONF_XY = 'xy'
 CONF_ZONE = 'zone'
 
+# 事件
 # #### EVENTS ####
 EVENT_HOMEASSISTANT_START = 'homeassistant_start'
 EVENT_HOMEASSISTANT_STOP = 'homeassistant_stop'
@@ -174,6 +175,7 @@ EVENT_SERVICE_REGISTERED = 'service_registered'
 EVENT_SERVICE_REMOVED = 'service_removed'
 EVENT_LOGBOOK_ENTRY = 'logbook_entry'
 
+# 状态
 # #### STATES ####
 STATE_ON = 'on'
 STATE_OFF = 'off'
@@ -305,6 +307,7 @@ ATTR_SUPPORTED_FEATURES = 'supported_features'
 # Class of device within its domain
 ATTR_DEVICE_CLASS = 'device_class'
 
+# 服务
 # #### SERVICES ####
 SERVICE_HOMEASSISTANT_STOP = 'stop'
 SERVICE_HOMEASSISTANT_RESTART = 'restart'
@@ -352,6 +355,7 @@ SERVICE_SELECT_OPTION = 'select_option'
 # #### API / REMOTE ####
 SERVER_PORT = 8123
 
+# URL
 URL_ROOT = '/'
 URL_API = '/api/'
 URL_API_STREAM = '/api/stream'
@@ -368,6 +372,7 @@ URL_API_ERROR_LOG = '/api/error_log'
 URL_API_LOG_OUT = '/api/log_out'
 URL_API_TEMPLATE = '/api/template'
 
+# HTTP status code
 HTTP_OK = 200
 HTTP_CREATED = 201
 HTTP_MOVED_PERMANENTLY = 301

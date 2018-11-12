@@ -28,6 +28,7 @@ from homeassistant.util.dt import utcnow
 import homeassistant.helpers.config_validation as cv
 from homeassistant.components.frontend import register_built_in_panel
 
+# 域名
 DOMAIN = 'automation'
 ENTITY_ID_FORMAT = DOMAIN + '.{}'
 
@@ -42,10 +43,12 @@ CONF_TRIGGER = 'trigger'
 CONF_CONDITION_TYPE = 'condition_type'
 CONF_INITIAL_STATE = 'initial_state'
 
+# 条件
 CONDITION_USE_TRIGGER_VALUES = 'use_trigger_values'
 CONDITION_TYPE_AND = 'and'
 CONDITION_TYPE_OR = 'or'
 
+# 默认值
 DEFAULT_CONDITION_TYPE = CONDITION_TYPE_AND
 DEFAULT_HIDE_ENTITY = False
 DEFAULT_INITIAL_STATE = True
